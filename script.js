@@ -22,5 +22,7 @@ formulario.addEventListener('submit', (event) => {
     event.preventDefault();
     const nombre = document.querySelector('#nombre').value.trim();
     console.log(`Nombre ingresado: ${nombre}`); 
+    console.log('Email ingresado:', document.querySelector('#email').value.trim());
+    console.log('Mensaje ingresado:', document.querySelector('#mensaje').value.trim());
 
 });
