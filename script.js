@@ -16,3 +16,11 @@ boton.addEventListener('click', () => {
     localStorage.setItem('modo-oscuro', String(modoOscuro));
 });
 
+const formulario = document.querySelector('#form-contacto');
+
+formulario.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const nombre = document.querySelector('#nombre').value.trim();
+    console.log(`Nombre ingresado: ${nombre}`); 
+
+});
