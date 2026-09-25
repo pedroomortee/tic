@@ -31,6 +31,8 @@ body {
     background:
         radial-gradient(circle at 85% 5%, rgba(147, 197, 253, 0.55), transparent 28rem),
         linear-gradient(145deg, #dbeafe 0%, #f8fbff 52%, #ffffff 100%);
+    background-position: 85% 5%, 0% 0%;
+    animation: fondoRespira 20s ease-in-out infinite alternate;
 }
 
 header {
@@ -125,6 +127,22 @@ nav a:focus-visible::after {
     letter-spacing: 0.08em;
     text-align: center;
     text-shadow: 3px 4px 0 rgba(147, 197, 253, 0.65);
+}
+
+.fuente-inicio {
+    background: linear-gradient(
+        110deg,
+        var(--azul-oscuro) 0%,
+        var(--azul) 32%,
+        #ffffff 48%,
+        #60a5fa 55%,
+        var(--azul-oscuro) 78%
+    );
+    background-size: 240% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: brilloTitulos 7s linear infinite;
 }
 
 main,
@@ -292,6 +310,7 @@ body.modo-oscuro {
     background:
         radial-gradient(circle at 85% 5%, rgba(30, 64, 175, 0.42), transparent 28rem),
         linear-gradient(145deg, #0f172a 0%, #172554 52%, #020617 100%);
+    background-position: 85% 5%, 0% 0%;
 }
 
 body.modo-oscuro header {
@@ -324,6 +343,37 @@ body.modo-oscuro #form-contacto textarea {
 body.modo-oscuro #modo-oscuro {
     border-color: rgba(253, 224, 71, 0.55);
     background: linear-gradient(145deg, #fef9c3, #facc15);
+}
+
+@keyframes fondoRespira {
+    0% {
+        background-position: 85% 5%, 0% 0%;
+    }
+
+    50% {
+        background-position: 68% 18%, 0% 0%;
+    }
+
+    100% {
+        background-position: 92% 0%, 0% 0%;
+    }
+}
+
+@keyframes brilloTitulos {
+    0% {
+        background-position: 180% 0;
+    }
+
+    100% {
+        background-position: -60% 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body,
+    .fuente-inicio {
+        animation: none;
+    }
 }
 
 @media (max-width: 600px) {
