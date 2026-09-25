@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi Portfolio | Pedro Morte</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li>
+                    <button id="modo-oscuro" type="button" aria-label="Activar modo oscuro" aria-pressed="false">🌙</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="pagina">
+        <h1 class="fuente-inicio">Mi Portfolio</h1>
+
+        <main>
+            <section id="inicio">
+                <h2 class="fuente-segtexto">Bienvenido a mi Portfolio</h2>
+                <p>Explora mis proyectos y habilidades.</p>
+            </section>
+
+            <section id="sobre-mi">
+                <h2>Sobre mí</h2>
+                <div class="flex-fila">
+                    <img src="Me.png" alt="Foto de Pedro Morte">
+                    <p>Hola, soy Pedro Morte, un desarrollador web apasionado por crear experiencias digitales impactantes.</p>
+                </div>
+            </section>
+
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                <div class="cuadricula-proyectos">
+                    <article class="tarjeta">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción breve del proyecto 1.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción breve del proyecto 2.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Proyecto 3</h3>
+                        <p>Descripción breve del proyecto 3.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Proyecto 4</h3>
+                        <p>Descripción breve del proyecto 4.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Puedes contactarme a través de mi correo electrónico: <strong>contactomorte@gmail.com</strong> o mediante el siguiente formulario:</p>
+                <form id="form-contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </section>
+        </main>
+
+        <section id="Ubicación">
+            <h2>Ubicación</h2>
+            <p>Estoy ubicado en Mojados, Valladolid.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1790077626997!6m8!1m7!1sxVWeWkBQ13NvZkqL4wiYnw!2m2!1d41.43276687644696!2d-4.66198781075965!3f327.69050063066027!4f7.866656608241996!5f0.7820865974627469" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Ubicación de Pedro Morte"></iframe>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
