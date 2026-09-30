@@ -105,7 +105,14 @@ body {
 }
 
 .cerrar-enlace {
-    flex: 0 0 22px;
+    width: 28px;
+    min-height: 27px;
+    flex: 0 0 28px;
+    margin-left: 3px;
+    box-shadow:
+        inset 1px 1px 1px rgba(255, 255, 255, 0.55),
+        0 0 8px rgba(255, 45, 45, 0.65),
+        0 0 15px rgba(255, 25, 25, 0.35);
     text-decoration: none;
     animation: pulsoCierre 3s ease-in-out infinite;
 }
@@ -115,7 +122,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 10px;
+    width: 12px;
     height: 2px;
     content: '';
     background: #ffffff;
@@ -131,8 +138,16 @@ body {
 
 .cerrar-enlace:hover,
 .cerrar-enlace:focus-visible {
-    outline: 2px solid #ffffff;
+    outline: 2px solid #ffe1e1;
     outline-offset: 2px;
+    box-shadow:
+        inset 1px 1px 1px rgba(255, 255, 255, 0.7),
+        0 0 10px rgba(255, 45, 45, 0.85),
+        0 0 19px rgba(255, 25, 25, 0.55);
+}
+
+.cerrar-enlace:hover {
+    filter: brightness(1.12);
 }
 
 .marco-ventana.cerrando {
