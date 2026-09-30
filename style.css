@@ -254,18 +254,29 @@ nav a:focus-visible::after {
 }
 
 .fuente-inicio {
-    background: linear-gradient(
-        110deg,
-        var(--azul-oscuro) 0%,
-        var(--azul) 32%,
-        #60a5fa 48%,
-        #3b82f6 55%,
-        var(--azul-oscuro) 78%
-    );
-    background-size: 100% 100%;
+    background-image:
+        linear-gradient(
+            110deg,
+            var(--azul-oscuro) 0%,
+            var(--azul) 32%,
+            #60a5fa 48%,
+            #3b82f6 55%,
+            var(--azul-oscuro) 78%
+        ),
+        linear-gradient(
+            110deg,
+            transparent 46%,
+            rgba(255, 255, 255, 0.08) 48%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(255, 255, 255, 0.08) 52%,
+            transparent 54%
+        );
+    background-size: 100% 100%, 300% 100%;
+    background-position: 0 0, 100% 0;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: brilloPortfolio 5s linear infinite;
 }
 
 main,
@@ -453,26 +464,40 @@ h2 {
 
 .imagen-articulo {
     display: block;
-    width: min(100%, 760px);
+    width: min(100%, 420px);
     height: auto;
     margin: 1.5rem auto 2rem;
     border-radius: 14px;
     box-shadow: 0 10px 24px rgba(30, 64, 175, 0.14);
 }
 
+.imagen-articulo-vertical {
+    width: min(100%, 300px);
+    max-height: 52vh;
+    object-fit: contain;
+}
+
 .multimedia-articulo {
-    width: min(100%, 900px);
+    width: min(100%, 680px);
     margin: 1.5rem auto 2rem;
 }
 
 .multimedia-articulo video {
     display: block;
     width: 100%;
-    max-height: 75vh;
+    max-height: min(60vh, 500px);
     border: 1px solid var(--borde);
     border-radius: 14px;
     background: #0f172a;
     box-shadow: 0 10px 24px rgba(30, 64, 175, 0.14);
+}
+
+.multimedia-articulo-vertical {
+    width: min(100%, 360px);
+}
+
+.multimedia-articulo-vertical video {
+    max-height: 56vh;
 }
 
 .multimedia-articulo figcaption {
@@ -614,6 +639,16 @@ body.modo-oscuro #modo-oscuro {
     }
 }
 
+@keyframes brilloPortfolio {
+    from {
+        background-position: 0 0, 100% 0;
+    }
+
+    to {
+        background-position: 0 0, -100% 0;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
@@ -622,7 +657,8 @@ body.modo-oscuro #modo-oscuro {
         transition-duration: 0.01ms !important;
     }
 
-    .cerrar-enlace {
+    .cerrar-enlace,
+    .fuente-inicio {
         animation: none;
     }
 
@@ -644,12 +680,49 @@ body.modo-oscuro #modo-oscuro {
     }
 
     .flex-fila {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .flex-fila img {
+        flex: 0 0 clamp(64px, 22vw, 84px);
+        width: clamp(64px, 22vw, 84px);
+        height: clamp(64px, 22vw, 84px);
+    }
+
+    .flex-fila p {
+        min-width: 0;
+        font-size: 1rem;
     }
 
     .cuadricula-proyectos {
         grid-template-columns: 1fr;
+    }
+
+    .imagen-articulo {
+        width: min(100%, 330px);
+    }
+
+    .imagen-articulo-vertical {
+        width: min(100%, 180px);
+        max-height: 38vh;
+    }
+
+    .multimedia-articulo {
+        width: min(100%, 420px);
+    }
+
+    .multimedia-articulo video {
+        max-height: 48vh;
+    }
+
+    .multimedia-articulo-vertical {
+        width: min(100%, 230px);
+    }
+
+    .multimedia-articulo-vertical video {
+        max-height: 40vh;
     }
 }
 

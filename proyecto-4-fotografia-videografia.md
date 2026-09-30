@@ -18,28 +18,28 @@ En 2022 conseguí mi primera cámara profesional: una Sony Alpha 58. No era un e
 
 Con el tiempo me compré un dron, el SJRC F11S 4K Pro, y la afición creció todavía más. Poder elevar la cámara y descubrir el paisaje desde arriba me hizo cogerle muchísimo más cariño y entusiasmo al mundo audiovisual. Empecé a grabar planos aéreos y a compartirlos en Instagram con mis amigos; ver un lugar conocido desde otra perspectiva siempre tenía algo especial.
 
-<figure class="multimedia-articulo">
+<figure class="multimedia-articulo multimedia-articulo-vertical">
     <video controls preload="metadata" playsinline>
         <source src="./4/ScreenRecording_09-30-2026%2018-54-05_1.mp4" type="video/mp4">
         <p>Tu navegador no puede reproducir este vídeo. <a href="./4/ScreenRecording_09-30-2026%2018-54-05_1.mp4">Abrir el vídeo</a>.</p>
     </video>
-    <figcaption>Un fragmento de vídeo de mi archivo audiovisual.</figcaption>
+    <figcaption>Un plano aéreo de un puente captado con el dron.</figcaption>
 </figure>
 
-## El proyecto de TIC: edición y trabajo en equipo
-
-### Crear un vídeo junto a Alberto
-
-El curso pasado, un trabajo de TIC me hizo reconectar de lleno con este hobby. Lo hice junto a mi compañero Alberto y requirió bastante esfuerzo, tanto durante la producción como en la edición. Trabajar con herramientas profesionales como DaVinci Resolve o Premiere Pro me permitió cuidar el resultado, revisar cada plano y entender todo lo que ocurre entre grabar una idea y convertirla en un vídeo terminado.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NYuFq7Ykyyk?si=0LugNjIGGF2bw6ea" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<figure class="multimedia-articulo">
+<figure class="multimedia-articulo multimedia-articulo-vertical">
     <video controls preload="metadata" playsinline>
         <source src="./4/ScreenRecording_09-30-2026%2018-55-31_1.mp4" type="video/mp4">
         <p>Tu navegador no puede reproducir este vídeo. <a href="./4/ScreenRecording_09-30-2026%2018-55-31_1.mp4">Abrir el vídeo</a>.</p>
     </video>
-    <figcaption>Otro fragmento de vídeo de esta etapa.</figcaption>
+    <figcaption>Un plano aéreo de la costa grabado con el dron.</figcaption>
 </figure>
+
+## El proyecto de TIC: edición de vídeo
+
+### Producción y edición por mi cuenta
+
+El curso pasado, un trabajo de TIC me hizo reconectar de lleno con este hobby. Lo desarrollé yo solo y requirió bastante esfuerzo, tanto durante la producción como en la edición. Trabajar con herramientas profesionales como DaVinci Resolve o Premiere Pro me permitió cuidar el resultado, revisar cada plano y entender todo lo que ocurre entre grabar una idea y convertirla en un vídeo terminado.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NYuFq7Ykyyk?si=0LugNjIGGF2bw6ea" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## El presente y la Lumix G7
 
@@ -52,7 +52,7 @@ Hace poco di un salto de calidad y me compré una Panasonic Lumix G7. Con ella e
         <source src="./4/VN20260930_184010.mp4" type="video/mp4">
         <p>Tu navegador no puede reproducir este vídeo. <a href="./4/VN20260930_184010.mp4">Abrir el vídeo</a>.</p>
     </video>
-    <figcaption>Un vídeo reciente de mi archivo audiovisual.</figcaption>
+    <figcaption>Una muestra de mi trabajo más reciente, grabada con la Lumix G7.</figcaption>
 </figure>
 
 También tengo una cantidad prácticamente infinita de vídeos y fotos guardados. Si me pusiera a subirlos todos al portafolio, tendría que hacer 10 webs distintas para que cupiesen todos.

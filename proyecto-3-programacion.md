@@ -26,7 +26,7 @@ Tiempo después volví a la idea de una web deportiva, pero esta vez quise hacer
 
 El sitio quedó mucho más profesional y empezó a recibir tráfico. Pero me encontré con un obstáculo que no había previsto: el contenido relacionado con salud y bienestar entra en las categorías que Google trata como YMYL (*Your Money or Your Life*), donde se exige un nivel especialmente alto de confianza y cuidado. Aunque la web tuviera visitas y estuviera trabajada, AdSense nunca la aprobó. Sin esa vía de ingresos, acabé abandonando el proyecto.
 
-![Una de las páginas de DeportesFit vista desde el móvil](./3/IMG_1971.PNG)
+![Una página de DeportesFit sobre suplementos vista desde el móvil](./3/unnamed.png)
 
 Me frustró invertir tiempo en dejarlo todo bien y no conseguir que saliera adelante. También me quedó claro que programar una web no es solo escribir código: hay decisiones de contenido, confianza, posicionamiento y viabilidad que pueden cambiar por completo el resultado.
 
@@ -38,15 +38,19 @@ Más adelante quise probar algo distinto: desarrollar para dispositivos Apple. A
 
 ![Diseño de CaloMetric en Figma antes de llevarlo a la aplicación](./3/IMG_7145.jpg)
 
+![Un prototipo de CaloMetric abierto en el portátil](./3/IMG_2072.jpeg)
+
+![Pantalla de presentación de CaloMetric y sus funciones principales](./3/IMG_2267.PNG)
+
 ### Siete meses de trabajo y una pausa necesaria
 
 Le dediqué más de siete meses. Aprendí muchísimo mientras convertía ideas y diseños en pantallas y funciones, y mientras intentaba que todas las piezas encajaran. Pero el proyecto seguía incompleto y publicar una app también implicaba asumir el coste de la cuenta de desarrollador de Apple, unos 100 dólares. Tuve que tomar una decisión difícil: aparcar CaloMetric en vez de seguir invirtiendo tiempo y dinero sin saber cuándo podría terminarlo.
 
-![Pantallas de seguimiento diario y progreso de CaloMetric](./3/IMG_2072.jpeg)
+![Pantalla de seguimiento diario y progreso de CaloMetric](./3/IMG_1966.PNG)
 
-![La interfaz de CaloMetric y una de sus funciones de registro de alimentos](./3/unnamed.png)
+![Interfaz de CaloMetric para registrar alimentos mediante foto, código de barras o entrada manual](./3/IMG_1971.PNG)
 
-![Una vista de detalle de alimentos junto al código de CaloMetric en Xcode](./3/IMG_7144.jpg)
+![CaloMetric abierto junto al código en el que trabajaba con Xcode](./3/IMG_7144.jpg)
 
 ## Mi visión actual: el código como propósito
 
@@ -59,5 +63,3 @@ He empezado proyectos con ilusión y también he tenido que aceptar cuándo era 
 Ahora sigo buscando activamente una nueva idea en la que trabajar. No necesito que el próximo proyecto sea perfecto ni que se convierta enseguida en un negocio; quiero encontrar un reto que me motive a aprender, probar y volver a empezar cuando algo no funcione.
 
 La tecnología me interesa de verdad, pero es la programación y el desarrollo de software lo que más me llena. Crear algo desde una idea, ver cómo toma forma y entender cada vez un poco más cómo funciona es lo que le da sentido a todo este camino.
-
-![Una sesión de programación de CaloMetric al final del día](./3/IMG_1966.PNG)

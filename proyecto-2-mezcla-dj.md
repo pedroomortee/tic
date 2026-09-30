@@ -18,9 +18,11 @@ Por entonces también trasteaba con un Launchpad de Novation y con Ableton Live 
 
 Al cumplir 16 años decidí tomarme la mezcla más en serio. Poco a poco me fui decantando por la música electrónica y, en especial, por sonidos como el Hardgroove, el Schranz y el Tech House. Me atraen su energía y sus ritmos, pero también el reto de enlazar los temas y conseguir que una sesión tenga continuidad y personalidad.
 
+![El equipo con el que fui practicando nuevas mezclas](./2/IMG_4308.jpeg)
+
 Empecé a preparar y grabar mis sesiones con más intención. Bajo el alias PEDROOMORTEE subí a SoundCloud mis primeros sets, entre ellos «Sesión 1» y «Sesión 2». Publicarlos fue una forma de salir un poco de mi habitación: podía compartir lo que estaba haciendo y escuchar la sesión desde otra perspectiva.
 
-![Captura de mi primera sesión de Hardgroove publicada bajo el alias PEDROOMORTEE](./2/IMG_6146.jpeg)
+![La portada de una de mis sesiones de Hardgroove](./2/IMG_4275.PNG)
 
 El apoyo inicial de mi círculo de amigos significó mucho para mí. Sus mensajes y sus palabras de ánimo me dieron confianza para seguir grabando, mejorar y enseñar algo que hasta entonces había mantenido en un entorno cercano. Para alguien que empezaba, saber que mis amigos escuchaban mis sesiones hizo que todo se sintiera más real.
 
@@ -31,8 +33,6 @@ Aunque llevaba tiempo pinchando en fiestas privadas con mis amigos, por vergüen
 El pasado fin de semana di por fin el paso: pinché en público en las prefiestas de mi pueblo, Mojados (Valladolid). Antes de empezar tenía nervios, pero una vez en la cabina me centré en la música y en disfrutar el momento. Todo salió mucho mejor de lo que esperaba.
 
 Recibir tantos halagos después fue una inyección enorme de motivación. No solo me hizo ilusión que la gente disfrutara la sesión; también me confirmó que atreverme había merecido la pena. Sigo teniendo mucho que aprender, pero ya he roto una barrera que antes me parecía difícil de superar.
-
-![Mi equipo de DJ preparado para una sesión](./2/IMG_5684.jpeg)
 
 <figure class="multimedia-articulo">
     <video controls preload="metadata" playsinline>
@@ -48,7 +48,9 @@ Ahora quiero aprovechar cualquier oportunidad que tenga para subirme a una cabin
 
 Además, he empezado a profesionalizar mi proyecto grabando mis sesiones en vídeo con mi nueva cámara, la Panasonic Lumix G7. Me ilusiona unir el mundo del audio con la imagen y cuidar no solo cómo suena cada sesión, sino también cómo la presento y la comparto.
 
-![Mi espacio de mezcla preparado para grabar sesiones en vídeo](./2/IMG_4275.PNG)
+![Mi espacio de mezcla preparado para grabar sesiones](./2/IMG_6146.jpeg)
+
+![Mi equipo de DJ preparado para grabar nuevas sesiones](./2/IMG_5684.jpeg)
 
 <figure class="multimedia-articulo">
     <video controls preload="metadata" playsinline>

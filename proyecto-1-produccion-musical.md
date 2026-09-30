@@ -42,8 +42,6 @@ Compartir ese entorno me anima a mejorar, pero no quiero limitarme a repetir lo 
 
 No se trata de copiar un estilo, sino de aprender de lo que me llega: cómo una frase puede ser directa y, a la vez, dejarte pensando; cómo se puede contar algo personal sin maquillarlo demasiado; o cómo una palabra bien colocada puede cambiar el peso de toda una línea. Después intento llevar esas ideas a mi propio terreno.
 
-![Sesión de trabajo en FL Studio con pistas y herramientas de mezcla](./1/IMG_6668.jpeg)
-
 ## Disciplina actual: el trabajo en la sombra
 
 Ahora mismo, gran parte de mi proyecto ocurre lejos de publicar canciones. A día de hoy todavía no he sacado ni un solo tema de manera oficial, pero eso no significa que no esté trabajando. En mi archivo tengo más de 500 letras escritas: ideas completas, versos sueltos, borradores y frases que quizá algún día encuentre su sitio.
@@ -53,5 +51,7 @@ Escribo a diario. No todos los días sale una letra que quiera guardar para siem
 Además, me grabo en el estudio un mínimo de dos veces por semana. Cada sesión es una oportunidad para probar interpretaciones, revisar cómo suenan las tomas y aprender algo más sobre mi voz. A veces salgo con algo que me convence y otras con una lista de cosas que quiero mejorar; las dos situaciones forman parte del proceso.
 
 ![Micrófono preparado para grabar en un espacio de producción musical](./1/IMG_6275.jpeg)
+
+![Mi equipo preparado para trabajar en música y grabar](./1/IMG_6668.jpeg)
 
 Aunque todavía no haya publicado oficialmente, siento que estoy construyendo una base sólida: escribiendo, probando y aprendiendo con constancia. Para mí, este proyecto no va solo de llegar a tener canciones fuera, sino de disfrutar el camino y hacer música que de verdad sienta mía cuando llegue el momento de compartirla.
