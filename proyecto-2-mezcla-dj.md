@@ -34,6 +34,14 @@ Recibir tantos halagos después fue una inyección enorme de motivación. No sol
 
 ![Mi equipo de DJ preparado para una sesión](./2/IMG_5684.jpeg)
 
+<figure class="multimedia-articulo">
+    <video controls preload="metadata" playsinline>
+        <source src="./2/IMG_8115.mp4" type="video/mp4">
+        <p>Tu navegador no puede reproducir este vídeo. <a href="./2/IMG_8115.mp4">Abrir el vídeo de mi primera sesión en público</a>.</p>
+    </video>
+    <figcaption>Un fragmento de mi primera sesión en público.</figcaption>
+</figure>
+
 ## Visión de futuro y audiovisual
 
 Ahora quiero aprovechar cualquier oportunidad que tenga para subirme a una cabina y seguir ganando experiencia. Mi primer bolo me ha demostrado que no tengo que esperar a sentirme completamente seguro para dar el siguiente paso: también puedo aprender mientras lo doy.
@@ -41,5 +49,13 @@ Ahora quiero aprovechar cualquier oportunidad que tenga para subirme a una cabin
 Además, he empezado a profesionalizar mi proyecto grabando mis sesiones en vídeo con mi nueva cámara, la Panasonic Lumix G7. Me ilusiona unir el mundo del audio con la imagen y cuidar no solo cómo suena cada sesión, sino también cómo la presento y la comparto.
 
 ![Mi espacio de mezcla preparado para grabar sesiones en vídeo](./2/IMG_4275.PNG)
+
+<figure class="multimedia-articulo">
+    <video controls preload="metadata" playsinline>
+        <source src="./2/VN20260907_052647%203.mp4" type="video/mp4">
+        <p>Tu navegador no puede reproducir este vídeo. <a href="./2/VN20260907_052647%203.mp4">Abrir el vídeo de una de mis sesiones</a>.</p>
+    </video>
+    <figcaption>Una de mis sesiones grabada en vídeo.</figcaption>
+</figure>
 
 Este es solo el comienzo. Quiero seguir explorando la electrónica, mejorar como DJ y convertir cada oportunidad en una experiencia que me acerque un poco más a lo que quiero hacer.
