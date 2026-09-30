@@ -7,24 +7,35 @@
     <title>Mi Portfolio | Pedro Morte</title>
 </head>
 <body>
-    <header>
-        <nav aria-label="Navegación principal">
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li>
-                    <button id="modo-oscuro" type="button" aria-label="Activar modo oscuro" aria-pressed="false">🌙</button>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <div class="marco-ventana">
+        <div class="barra-titulo" aria-hidden="true">
+            <span class="icono-ventana"></span>
+            <span class="titulo-ventana">Mi Portfolio</span>
+            <span class="controles-ventana">
+                <span class="control-ventana minimizar"></span>
+                <span class="control-ventana maximizar"></span>
+                <span class="control-ventana cerrar"></span>
+            </span>
+        </div>
 
-    <div class="pagina">
-        <h1 class="fuente-inicio">Mi Portfolio</h1>
+        <header>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button id="modo-oscuro" type="button" aria-label="Activar modo oscuro" aria-pressed="false">🌙</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-        <main>
+        <div class="pagina">
+            <h1 class="fuente-inicio">Mi Portfolio</h1>
+
+            <main>
             <section id="inicio">
                 <h2 class="fuente-segtexto">Bienvenido a mi Portfolio</h2>
                 <p>Explora mis proyectos y habilidades.</p>
@@ -144,13 +155,14 @@
                     <button type="submit">Enviar mensaje</button>
                 </form>
             </section>
-        </main>
+            </main>
 
-        <section id="Ubicación">
-            <h2>Ubicación</h2>
-            <p>Estoy ubicado en Mojados, Valladolid.</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1790077626997!6m8!1m7!1sxVWeWkBQ13NvZkqL4wiYnw!2m2!1d41.43276687644696!2d-4.66198781075965!3f327.69050063066027!4f7.866656608241996!5f0.7820865974627469" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Ubicación de Pedro Morte"></iframe>
-        </section>
+            <section id="Ubicación">
+                <h2>Ubicación</h2>
+                <p>Estoy ubicado en Mojados, Valladolid.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1790077626997!6m8!1m7!1sxVWeWkBQ13NvZkqL4wiYnw!2m2!1d41.43276687644696!2d-4.66198781075965!3f327.69050063066027!4f7.866656608241996!5f0.7820865974627469" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Ubicación de Pedro Morte"></iframe>
+            </section>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
