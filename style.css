@@ -104,6 +104,12 @@ body {
     background: linear-gradient(145deg, #ff9a80 0%, #ed3d30 48%, #c71919 100%);
 }
 
+.cerrar-enlace {
+    flex: 0 0 22px;
+    text-decoration: none;
+    animation: pulsoCierre 3s ease-in-out infinite;
+}
+
 .cerrar::before,
 .cerrar::after {
     position: absolute;
@@ -121,6 +127,17 @@ body {
 
 .cerrar::after {
     transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.cerrar-enlace:hover,
+.cerrar-enlace:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+}
+
+.marco-ventana.cerrando {
+    animation: cerrarVentana 220ms ease-in forwards;
+    transform-origin: top center;
 }
 
 header {
@@ -393,7 +410,6 @@ h2 {
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.82);
     box-shadow: 0 14px 35px rgba(30, 64, 175, 0.09);
-    scroll-margin-top: 6rem;
 }
 
 .articulo-proyecto h2 {
@@ -406,6 +422,14 @@ h2 {
 
 .articulo-proyecto h3 {
     color: var(--azul);
+}
+
+.titulo-articulo {
+    margin: 0 0 1.5rem;
+    color: var(--azul-oscuro);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    line-height: 1.2;
+    text-align: center;
 }
 
 .articulo-proyecto p {
@@ -491,6 +515,7 @@ body.modo-oscuro header {
 }
 
 body.modo-oscuro .fuente-inicio,
+body.modo-oscuro .titulo-articulo,
 body.modo-oscuro h2,
 body.modo-oscuro .tarjeta h3 {
     color: #bfdbfe;
@@ -523,12 +548,38 @@ body.modo-oscuro #modo-oscuro {
     background: linear-gradient(145deg, #fef9c3, #facc15);
 }
 
+@keyframes pulsoCierre {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+}
+
+@keyframes cerrarVentana {
+    to {
+        opacity: 0.72;
+        transform: scale(0.985);
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
     *::after {
         scroll-behavior: auto;
         transition-duration: 0.01ms !important;
+    }
+
+    .cerrar-enlace {
+        animation: none;
+    }
+
+    .marco-ventana.cerrando {
+        animation-duration: 0.01ms;
     }
 }
 
