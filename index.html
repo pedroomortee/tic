@@ -23,6 +23,7 @@
                     <li><a href="#sobre-mi">Sobre mí</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
                     <li>
                         <button id="modo-oscuro" type="button" aria-label="Activar modo oscuro" aria-pressed="false">🌙</button>
                     </li>
@@ -36,7 +37,7 @@
             <main>
             <section id="inicio">
                 <h2 class="fuente-segtexto">Bienvenido a mi Portfolio</h2>
-                <p>En esta página encontarás todo lo que necesitas saber sobre mi:).</p>
+                <p>En esta página encontrarás todo lo que necesitas saber sobre mí <span class="emoticon" role="img" aria-label="sonrisa">:)</span></p>
             </section>
 
             <section id="sobre-mi">
@@ -86,21 +87,22 @@
                 <p>Puedes contactarme a través de mi correo electrónico: <strong>contactomorte@gmail.com</strong> o mediante el siguiente formulario:</p>
                 <form id="form-contacto">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
                     <label for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" required></textarea>
                     <button type="submit">Enviar mensaje</button>
+                    <p id="form-mensaje" class="form-mensaje" role="status" aria-live="polite"></p>
                 </form>
             </section>
-            </main>
 
-            <section id="Ubicación">
+            <section id="ubicacion">
                 <h2>Ubicación</h2>
                 <p>Estoy ubicado en Mojados, Valladolid.</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1790077626997!6m8!1m7!1sxVWeWkBQ13NvZkqL4wiYnw!2m2!1d41.43276687644696!2d-4.66198781075965!3f327.69050063066027!4f7.866656608241996!5f0.7820865974627469" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Ubicación de Pedro Morte"></iframe>
+                <iframe src="https://www.google.com/maps?q=41.43276687644696%2C-4.66198781075965&z=14&output=embed" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="Ubicación de Pedro Morte"></iframe>
             </section>
+            </main>
         </div>
     </div>
     <script src="script.js"></script>

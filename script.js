@@ -25,13 +25,56 @@ if (boton) {
 const formulario = document.querySelector('#form-contacto');
 
 if (formulario) {
+    const nombreInput = document.querySelector('#nombre');
+    const emailInput = document.querySelector('#email');
+    const mensajeInput = document.querySelector('#mensaje');
+    const mensajeEstado = document.querySelector('#form-mensaje');
+
+    const mostrarEstadoFormulario = (texto, tipo) => {
+        if (!mensajeEstado) {
+            return;
+        }
+
+        mensajeEstado.textContent = texto;
+        mensajeEstado.classList.toggle('error', tipo === 'error');
+        mensajeEstado.classList.toggle('exito', tipo === 'exito');
+    };
+
+    formulario.addEventListener('invalid', () => {
+        mostrarEstadoFormulario('Falta información o el correo electrónico no tiene un formato válido. Revisa los campos marcados.', 'error');
+    }, true);
+
+    formulario.addEventListener('input', () => {
+        mostrarEstadoFormulario('', '');
+    });
+
     formulario.addEventListener('submit', (event) => {
         event.preventDefault();
-        const nombre = document.querySelector('#nombre').value.trim();
-        console.log(`Nombre ingresado: ${nombre}`);
-        console.log('Email ingresado:', document.querySelector('#email').value.trim());
-        console.log('Mensaje ingresado:', document.querySelector('#mensaje').value.trim());
 
+        if (!nombreInput || !emailInput || !mensajeInput) {
+            mostrarEstadoFormulario('No se ha podido comprobar el formulario. Inténtalo de nuevo más tarde.', 'error');
+            return;
+        }
+
+        const nombre = nombreInput.value.trim();
+        const email = emailInput.value.trim();
+        const mensaje = mensajeInput.value.trim();
+
+        if (!nombre || !email || !mensaje) {
+            mostrarEstadoFormulario('Falta información por rellenar. Completa todos los campos.', 'error');
+            return;
+        }
+
+        if (!emailInput.validity.valid) {
+            mostrarEstadoFormulario('Introduce una dirección de correo electrónico válida.', 'error');
+            emailInput.focus();
+            return;
+        }
+
+        console.log(`Nombre ingresado: ${nombre}`);
+        console.log('Email ingresado:', email);
+        console.log('Mensaje ingresado:', mensaje);
+        mostrarEstadoFormulario('¡Mensaje enviado correctamente! Gracias por contactar.', 'exito');
     });
 }
 
